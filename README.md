@@ -38,3 +38,5 @@ underline2
 
 - <a href="http://www.google.com">esto es un *link* desde **html**</a>
 - [esto es un __link__ desde *md*](http://www.google.com)
+
+![logo git](https://cdn-icons-png.flaticon.com/512/25/25231.png)
