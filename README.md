@@ -39,4 +39,54 @@ underline2
 - <a href="http://www.google.com">esto es un *link* desde **html**</a>
 - [esto es un __link__ desde *md*](http://www.google.com)
 
+# Imagenes
 ![logo git](https://cdn-icons-png.flaticon.com/512/25/25231.png)
+
+# code snippet
+- JSON
+```JSON
+{
+    "usuarios":[
+        {
+            "nombre": "Itzmiztli",
+            "apeidoPaterno": "Alemán",
+            "apeidoMaterno": "Alvarez"
+        },
+        {
+           "nombre": "Nancy",
+            "apeidoPaterno": "Alvarez",
+            "apeidoMaterno": "Lugo" 
+        },
+        {
+            "nombre": "David",
+            "apeidoPaterno": "Alemán",
+            "apeidoMaterno": "Sánchez "
+        }
+    ]
+}
+```
+- JAVASCRIPT
+```javascript
+function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+  }
+
+  return (
+    <div>
+      <web-component>{block}</web-component>
+    </div>
+  )
+}
+
+export  $initHighlight;
+
+```
