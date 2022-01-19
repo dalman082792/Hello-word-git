@@ -88,5 +88,31 @@ function $initHighlight(block, cls) {
 }
 
 export  $initHighlight;
-
 ```
+
+# Tablas
+| Nombre | Apeido | Documento |
+| ------ | ------ | --------- |
+|Itzmiztli|Alemán| 12012021
+|Nancy|Alvarez| 12102002
+|David|Alemán| 27081992
+
+# Citas
+>esto es una cita 
+
+esto no es una cita
+
+# divicion 
+esto es un texto
+___
+esto es una divicion
+***
+esto es otra divicion
+
+# Saltos de linea
+
+hola mundo
+
+hola mundo 2
+
+hola mundo 3
